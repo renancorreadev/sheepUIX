@@ -1,0 +1,40 @@
+@import '../../layout/variables.scss';
+
+#menu > ul > li:nth-child(5) > span:nth-child(1){
+    display: block;
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    color: #051209;
+    font-style: oblique;
+    left: 57px;
+    top: 49px;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 14px;
+}
+
+@media screen and (max-width: 890px){
+    #menu > ul > li:nth-child(5) > span:nth-child(1){
+        display: none; 
+    }
+  
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (orientation:landscape) {
+    #menu > ul > li:nth-child(5) > span:nth-child(1){
+        position: relative;
+        font-size: 15px;
+        font-weight: bold;
+        color: #051209;
+        font-style: oblique;
+        left: -30px;
+        top: 40px;
+        background-color: yellow;
+        border-radius: 20px;
+    
+    }
+
+ }
+  
